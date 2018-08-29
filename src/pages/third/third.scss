@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two|Pathway+Gothic+One');
+
+page-third {
+
+    ion-title{
+        font-family: 'Lobster Two', cursive;
+      } 
+      ion-content button{ 
+        font-family: 'Pathway Gothic One', sans-serif;
+        font-weight: bold;
+        width: 50%;
+      }
+}

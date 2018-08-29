@@ -1,25 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two|Pathway+Gothic+One');
 
-page-home {
-      
-      ion-title{
+page-second {
+
+    ion-title{
         font-family: 'Lobster Two', cursive;
-        font-weight: bold;
       } 
-      ion-content img{
-        margin: 120px 0 0 0;
-        animation: 2s animate linear; 
-      }
-      @keyframes animate {
-          0%{
-            transform: rotate(360deg);
-            opacity: 0;
-          }
-          100%{
-            opacity: 1;
-            transform: scale(1.2)
-          }
-      }
       ion-content h1{ 
         font-family: 'Pathway Gothic One', sans-serif;
       }
@@ -29,7 +14,6 @@ page-home {
       ion-content button{ 
         font-family: 'Pathway Gothic One', sans-serif;
         font-weight: bold;
-        width: 50%; 
+        width: 50%;
       }
-  
 }

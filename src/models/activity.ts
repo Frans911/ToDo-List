@@ -1,0 +1,3 @@
+interface Activity{
+    task:string;
+}
